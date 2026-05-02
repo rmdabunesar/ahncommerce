@@ -1,0 +1,95 @@
+.woocommerce ul.products li.product .onsale {
+    top: 1.5em;
+    right: 1.5em;
+}
+
+.woocommerce span.onsale {
+    height: 50px;
+    width: 50px;
+    top: 2.5em;
+    left: 2.5em;
+    background-color: #7fad39;
+}
+
+.woocommerce ul.products li.product {
+    text-align: center;
+    border: 1px solid #cccccc;
+}
+
+.woocommerce ul.products li.product .button {
+    color: #ffffff;
+    background-color: #7fad39;
+    margin-bottom: 15px;
+}
+
+.woocommerce-product-gallery ol {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px !important;
+}
+
+.woocommerce-product-gallery ol li {
+    flex: 1
+}
+
+.woocommerce div.product .product_title {
+    color: #252525;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.woocommerce .star-rating span::before {
+    color: #EDBB0E;
+}
+
+.woocommerce:where(body:not(.woocommerce-uses-block-theme)) div.product p.price,
+.woocommerce:where(body:not(.woocommerce-uses-block-theme)) div.product span.price {
+    font-size: 30px;
+    color: #000000;
+}
+
+.single_add_to_cart_button  {
+	padding: 16px 28px 14px;
+	margin-right: 6px;
+	margin-bottom: 5px;
+	border: none !important;
+}
+
+.nice-select span.current {
+    display: inline-block;
+    min-width: 110px;
+}
+
+
+.woocommerce div.product .woocommerce-tabs .panel h2 {
+    font-size: 20px;
+    margin: 20px 0 0;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li::before {
+    display: none;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li {
+    background-color: #7fad39;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li::after {
+    display: none;
+} 
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li a {
+    color: #ffffff;
+}
+
+.related h2 {
+    text-align: center;
+    color: #1c1c1c;
+    font-size: 36px;
+    font-weight: 700;
+    position: relative;
+    margin: 30px;
+}
+
