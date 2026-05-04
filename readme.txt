@@ -40,6 +40,7 @@ After installing the theme, create a new page and assign the "Home Page" templat
 
 == Credits ==
 
+* Template URL: https://rebrand.ly/4pw70s1
 * Bootstrap, https://getbootstrap.com/, MIT License
 * Font Awesome 4.7.0, https://fontawesome.com/, SIL OFL 1.1 License (fonts), MIT License (CSS)
 * Elegant Icons, https://www.elegantthemes.com/blog/resources/elegant-icon-font, GPL
