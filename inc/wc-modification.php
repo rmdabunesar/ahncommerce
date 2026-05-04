@@ -21,7 +21,7 @@
  * @return void
  */
 function ahncommerce_wc_modify_shop() {
-	if ( is_shop() && function_exists( 'WC' ) ) {
+	if ( ( is_shop() || is_product_taxonomy() ) && function_exists( 'WC' ) ) {
 		remove_action( 'woocommerce_before_main_content', 'woocommerce_output_content_wrapper', 10 );
 		add_action( 'woocommerce_before_main_content', 'ahncommerce_output_content_wrapper', 10 );
 
